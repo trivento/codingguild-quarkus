@@ -1,14 +1,23 @@
 # codingguild-quarkus
 
-https://code.quarkus.io/
+https://quarkus.io/
 
-In stap 0 gaan we het initiële Quarkus project opzetten en testen.
-Hiervoor zijn 2 mogelijkheden:
+Als je nog geen werkend Quarkus project hebt:
 
-- gebruik de initializer: 
-https://code.quarkus.io/
-- gebruik de Quarkus Maven plugin:
-https://quarkus.io/guides/getting-started#bootstrapping-the-project
+mvn io.quarkus:quarkus-maven-plugin:1.8.1.Final:create \
+    -DprojectGroupId=nl.trivento.codeguild \
+    -DprojectArtifactId=codeguild-quarkus \
+    -DclassName="nl.trivento.codeguild.quarkus.GreetingResource" \
+    -Dpath="/hello" \
+    -Dextensions="resteasy-jsonb"
 
-Let op we gaan in de volgende stap de resteasy-jsonb etension gebruiken, dus neem die ook gelijk mee.
+In stap 1 gaan we de persoon rest resource in Quarkus maken.
+ - path: /rest/persoon
+ - return: lijst met persoonen
+ - persoon bevat (voornaam, achternaam, geboortedatum, email)
+
+Testen
+- http://localhost:8080/rest/persoon
+
+
 
