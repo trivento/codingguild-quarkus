@@ -1,0 +1,18 @@
+<h1>Personen</h1>
+<table>
+    <thead>
+        <tr>
+          <th>Naam</th>
+          <th>Email</th>
+          <th>Geboortedatum</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let persoon of personen">
+            <td>{{ persoon.voornaam }} {{ persoon.achternaam }}</td>
+            <td>{{ persoon.email }}</td>
+            <td>{{ persoon.geboortedatum |  date:'dd-MM-yyyy' }}</td>
+        </tr>
+    </tbody>
+</table>
+
