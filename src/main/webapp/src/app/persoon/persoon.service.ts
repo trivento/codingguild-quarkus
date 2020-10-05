@@ -10,7 +10,7 @@ export class PersoonService {
   constructor(private http: HttpClient) { }
 
   getPersonen() {
-    const url = '/rest/persoon';
+    const url = './assets/mocks/persoon.json';
     return this.http.get<Persoon[]>(url);
   }
 }
