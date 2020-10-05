@@ -5,7 +5,7 @@ https://angular.io/
 
 Als je nog geen werkend project hebt:
 
-git checkout step3
+git checkout step5
 npm install (vanuit src/main/webapp)
 
 In stap 5 gaan we de frontend en de Quarkus backend integreren.
