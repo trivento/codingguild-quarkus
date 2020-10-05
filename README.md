@@ -5,8 +5,8 @@ https://angular.io/
 
 Als je nog geen werkend project hebt:
 
-git checkout step3
-npm install (vanuit src/main/webapp)
+- git checkout step3
+- npm install (vanuit src/main/webapp)
 
 In stap 3 gaan we een frontend maken met mockdata.
 
