@@ -28,7 +28,7 @@ public class PersoonResource {
         persoon.setVoornaam("Ruud");
         persoon.setAchternaam("van Vliet");
         persoon.setGeboortedatum(LocalDate.of(1968, 11, 17));
-        persoon.setEmail("ruud.van.tintelen@trivento.nl");
+        persoon.setEmail("ruud.van.vlet@trivento.nl");
         personen.add(persoon);
         return Response.ok(personen).build();
     }
