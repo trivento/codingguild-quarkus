@@ -5,8 +5,8 @@ https://angular.io/
 
 Als je nog geen werkend project hebt:
 
-git checkout step6
-npm install (vanuit src/main/webapp)
+ - git checkout step6
+ - npm install (vanuit src/main/webapp)
 
 In stap 6 ben ik gestopt. Je zou nog verder kunnen gaan met o.a.
 
