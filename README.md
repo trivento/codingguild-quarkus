@@ -5,7 +5,7 @@ https://angular.io/
 
 Als je nog geen werkend Quarkus project hebt:
 
-git checkout step2
+- git checkout step2
 
 In stap 2 gaan het initiële frontend project opzetten met angular.
  - ga naar de directory src/main in je Quarkus project.
