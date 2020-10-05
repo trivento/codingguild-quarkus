@@ -5,17 +5,17 @@ https://angular.io/
 
 Als je nog geen werkend project hebt:
 
-git checkout step2
+git checkout step3
 npm install (vanuit src/main/webapp)
 
-In stap 3 gaan we een frontend maken met mockdata.
+In stap 4 gaan we de frontend koppelen aan de Quarkus backend.
 
- - maak een persoon-lijst component
- - gooi de content van de app.component.html weg en vervang die door de selector van het persoon-lijst component (even testen)
- - sla de response van de persoon resource op als persoon.json in assets/mocks
- - maak een service met een functie getPersonen, die een http GET doet naar de person.json (https://angular.io/tutorial/toh-pt6)
- - subscribe op de service in de ngOnInit van het persoonlijst component en toon een lijst van personen
-
+ - maak een proxy.conf.json in webapp (https://medium.com/better-programming/setup-a-proxy-for-api-calls-for-your-angular-cli-app-6566c02a8c4d)
+ - configureer deze zo dat alle calls van /rest naar http:/localhost:8080 gaan
+ - pas de package.json aan zodat in npm start van de proxy.conf gebruik wordt maakt
+ - pas je url aan, zodat de person.json niet meer gebruikt wordt
+ - pas iets aan de data in je quarkus app aan zodat je kan zien dat je van de achterkant gebruikt maakt.
+  
 
 Testen
 - npm start
