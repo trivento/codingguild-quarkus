@@ -11,6 +11,10 @@ mvn io.quarkus:quarkus-maven-plugin:1.8.1.Final:create \
     -Dpath="/hello" \
     -Dextensions="resteasy-jsonb"
 
+of
+
+git checkout step1
+
 In stap 1 gaan we de persoon rest resource in Quarkus maken.
  - path: /rest/persoon
  - return: lijst met personen
