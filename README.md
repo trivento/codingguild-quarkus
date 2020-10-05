@@ -13,7 +13,7 @@ mvn io.quarkus:quarkus-maven-plugin:1.8.1.Final:create \
 
 In stap 1 gaan we de persoon rest resource in Quarkus maken.
  - path: /rest/persoon
- - return: lijst met persoonen
+ - return: lijst met personen
  - persoon bevat (voornaam, achternaam, geboortedatum, email)
 
 Testen
