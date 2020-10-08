@@ -1,14 +1,14 @@
 [
     {
-        "achternaam": "van Tintelen",
-        "email": "olaf.van.tintelen@trivento.nl",
+        "achternaam": "Duck",
+        "email": "donald.duck@duckstad.nl",
         "geboortedatum": "1971-11-17",
-        "voornaam": "Olaf"
+        "voornaam": "Donald"
     },
     {
-        "achternaam": "van Vliet",
-        "email": "ruud.van.vliet@trivento.nl",
-        "geboortedatum": "1968-11-17",
-        "voornaam": "Ruud"
+        "achternaam": "Mouse",
+        "email": "mickey.mouse@duckstad.nl",
+        "geboortedatum": "1968-07-01",
+        "voornaam": "Mickey"
     }
 ]
