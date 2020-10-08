@@ -18,10 +18,10 @@ public class PersoonResource {
     public Response getPersonen() {
         List<Persoon>  personen = new ArrayList<>();
         Persoon persoon = new Persoon();
-        persoon.setVoornaam("Donal");
+        persoon.setVoornaam("Donald");
         persoon.setAchternaam("Duck");
         persoon.setGeboortedatum(LocalDate.of(1971, 11, 17));
-        persoon.setEmail("donald.duckn@tduckstd.nl");
+        persoon.setEmail("donald.duck@duckstad.nl");
         personen.add(persoon);
 
         persoon = new Persoon();
