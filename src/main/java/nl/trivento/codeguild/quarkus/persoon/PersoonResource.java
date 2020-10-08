@@ -18,17 +18,17 @@ public class PersoonResource {
     public Response getPersonen() {
         List<Persoon>  personen = new ArrayList<>();
         Persoon persoon = new Persoon();
-        persoon.setVoornaam("Olaf");
-        persoon.setAchternaam("van Tintelen");
+        persoon.setVoornaam("Donald");
+        persoon.setAchternaam("Duck");
         persoon.setGeboortedatum(LocalDate.of(1971, 11, 17));
-        persoon.setEmail("olaf.van.tintelen@trivento.nl");
+        persoon.setEmail("donald.duck@duckstad.nl");
         personen.add(persoon);
 
         persoon = new Persoon();
-        persoon.setVoornaam("Ruud");
-        persoon.setAchternaam("van Vliet");
-        persoon.setGeboortedatum(LocalDate.of(1968, 11, 17));
-        persoon.setEmail("ruud.van.vliet@trivento.nl");
+        persoon.setVoornaam("Mickey");
+        persoon.setAchternaam("Mouse");
+        persoon.setGeboortedatum(LocalDate.of(1968, 07, 01));
+        persoon.setEmail("mickey.mouse@duckstad.nl");
         personen.add(persoon);
         return Response.ok(personen).build();
     }
